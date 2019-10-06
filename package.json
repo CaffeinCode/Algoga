@@ -4,6 +4,7 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "cross-env": "^6.0.3",
     "office-ui-fabric-react": "^7.43.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
@@ -11,8 +12,8 @@
     "react-scripts": "3.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_PATH=src/ react-scripts start",
+    "build": "cross-env NODE_PATH=src/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -31,7 +32,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "cross-env": "^6.0.3"
-  }
+  "devDependencies": {}
 }
