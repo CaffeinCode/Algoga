@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Board from './components/Board.js';
-import FindAlgo from './components/FindAlgo.js';
-import Login from './components/Login.js';
-import NavBar from './components/NavBar.js';
+import Board from './pages/Board.js';
+import FindAlgo from './pages/FindAlgo.js';
+import Login from './pages/Login.js';
+import NavBar from './pages/NavBar.js';
 
 const Root = () => (
     <BrowserRouter>
