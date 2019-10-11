@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Board from './pages/Board.js';
 import FindAlgo from './pages/FindAlgo.js';
 import Login from './pages/Login.js';
-import NavBar from './pages/NavBar.js';
+import NavBar from './components/NavBar.js';
 
 const Root = () => (
     <BrowserRouter>
