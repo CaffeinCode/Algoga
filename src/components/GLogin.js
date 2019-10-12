@@ -10,7 +10,7 @@ export class GLogin extends React.Component<any, any> {
     return (
       <div>
       <GoogleLogin
-        clientId="789856856521-q704e307uhpstngn3c1cqju3o4h0eomk.apps.googleusercontent.com"
+        clientId=""
         buttonText="Login"
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
